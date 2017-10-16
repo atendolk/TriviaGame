@@ -36,7 +36,7 @@ console.log("it's working");
     correctAnswer: 1
   },
 
- 
+
 ];
 var currentquestion = 0;
 var correctAnswers = 0;
@@ -160,78 +160,78 @@ function wrongFunction1(){
 function rightFunction1(){
   correctAnswers++;
   //console.log(correctAnswers);
-  document.getElementById("demo3").innerHTML=" correct: " + correctAnswers
+  document.getElementById("demo3").innerHTML=" correct: " + correctAnswers;
 }
 function wrongFunction2(){
   wrongAnswers++;
   //console.log(wrongAnswers);
-  document.getElementById("demo4").innerHTML= " wrong: " + wrongAnswers
+  document.getElementById("demo4").innerHTML= " wrong: " + wrongAnswers;
 }
 function wrongFunction3(){
   wrongAnswers++;
   //console.log(wrongAnswers);
-  document.getElementById("demo5").innerHTML= " wrong: " + wrongAnswers
+  document.getElementById("demo5").innerHTML= " wrong: " + wrongAnswers;
 }
 function wrongFunction4(){
   wrongAnswers++;
   //console.log(wrongAnswers);
-  document.getElementById("demo6").innerHTML= " wrong: " + wrongAnswers
+  document.getElementById("demo6").innerHTML= " wrong: " + wrongAnswers;
 }
 function rightFunction5(){
   correctAnswers++;
   //console.log(correctAnswers);
-  document.getElementById("demo7").innerHTML=" correct: " + correctAnswers
+  document.getElementById("demo7").innerHTML=" correct: " + correctAnswers;
 }
 
 function wrongFunction6(){
   wrongAnswers++;
   //console.log(wrongAnswers);
-  document.getElementById("demo8").innerHTML= " wrong: " + wrongAnswers
+  document.getElementById("demo8").innerHTML= " wrong: " + wrongAnswers;
 }
 function rightFunction7(){
   correctAnswers++;
   //console.log(correctAnswers);
-  document.getElementById("demo9").innerHTML=" correct: " + correctAnswers
+  document.getElementById("demo9").innerHTML=" correct: " + correctAnswers;
 }
 function wrongFunction8(){
   wrongAnswers++;
   //console.log(wrongAnswers);
-  document.getElementById("demo10").innerHTML= " wrong: " + wrongAnswers
+  document.getElementById("demo10").innerHTML= " wrong: " + wrongAnswers;
 }
 function wrongFunction9(){
   wrongAnswers++;
   //console.log(wrongAnswers);
-  document.getElementById("demo11").innerHTML= " wrong: " + wrongAnswers
+  document.getElementById("demo11").innerHTML= " wrong: " + wrongAnswers;
 }
 function wrongFunction10(){
   wrongAnswers++;
   //console.log(wrongAnswers);
-  document.getElementById("demo12").innerHTML= " wrong: " + wrongAnswers
+  document.getElementById("demo12").innerHTML= " wrong: " + wrongAnswers;
 }
 function rightFunction11(){
   correctAnswers++;
   //console.log(correctAnswers);
-  document.getElementById("demo13").innerHTML=" correct: " + correctAnswers
+  document.getElementById("demo13").innerHTML=" correct: " + correctAnswers;
 }
 function wrongFunction12(){
   wrongAnswers++;
   //console.log(wrongAnswers);
-  document.getElementById("demo14").innerHTML= " wrong: " + wrongAnswers
+  document.getElementById("demo14").innerHTML= " wrong: " + wrongAnswers;
 }
 function wrongFunction13(){
   wrongAnswers++;
   //console.log(wrongAnswers);
-  document.getElementById("demo15").innerHTML= " wrong: " + wrongAnswers
+  document.getElementById("demo15").innerHTML= " wrong: " + wrongAnswers;
 }
 function rightFunction14(){
   correctAnswers++;
   //console.log(correctAnswers);
-  document.getElementById("demo16").innerHTML=" correct: " + correctAnswers
+  document.getElementById("demo16").innerHTML=" correct: " + correctAnswers;
 }
 function wrongFunction15(){
   wrongAnswers++;
   //console.log(wrongAnswers);
-  document.getElementById("demo17").innerHTML= " wrong: " + wrongAnswers
+  document.getElementById("demo17").innerHTML= " wrong: " + wrongAnswers;
 }
 function endFunction(){
   document.getElementById("endanswer").innerHTML = "Good Job! You have successfully finished!" + " Right: " + correctAnswers + " wrong: " + wrongAnswers;
