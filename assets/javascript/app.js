@@ -139,7 +139,8 @@ function rightFunction14(){
 function wrongFunction15(){
   wrongAnswers++;
   //console.log(wrongAnswers);
-  document.getElementById("demo17").innerHTML= " wrong: " + wrongAnswers;
+  document.getElementById("demo17").innerHTML="Your answer is recorded, move on to next question!";
+
 }
 function endFunction(){
   document.getElementById("endanswer").innerHTML = "Good Job! You have successfully finished!" + " Right: " + correctAnswers + " wrong: " + wrongAnswers;
