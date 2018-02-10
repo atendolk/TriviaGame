@@ -5,4 +5,13 @@ p {
 body{
 	background-image: url("sea.jpg");
 	color: white;
+
+  background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+
+/* <!-- Container element --> */
+/* <div class="parallax"></div> */
 }
